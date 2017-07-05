@@ -62,16 +62,16 @@ print "Number of channels: %s" % len(vehicle.channels)
 print "\nChannel overrides: %s" % vehicle.channels.overrides
 
 print "Set Ch2 override to 200 (indexing syntax)"
-vehicle.channels.overrides['2'] = 200
+vehicle.channels.overrides['2'] = 1200
 print " Channel overrides: %s" % vehicle.channels.overrides
 print " Ch2 override: %s" % vehicle.channels.overrides['2']
 
 print "Set Ch3 override to 300 (dictionary syntax)"
-vehicle.channels.overrides = {'3':300}
+vehicle.channels.overrides = {'3':1300}
 print " Channel overrides: %s" % vehicle.channels.overrides
 
 print "Set Ch1-Ch8 overrides to 110-810 respectively"
-vehicle.channels.overrides = {'1': 110, '2': 210,'3': 310,'4':4100, '5':510,'6':610,'7':710,'8':810}
+vehicle.channels.overrides = {'1': 1110, '2': 1210,'3': 1310,'4':1100, '5':1510,'6':610,'7':710,'8':810}
 print " Channel overrides: %s" % vehicle.channels.overrides 
 
 
